@@ -1,0 +1,19 @@
+{
+    "name": "thanhhuy/s3minio",
+    "description": "s3 minio php",
+    "type": "php",
+    "authors": [
+        {
+            "name": "Thanh Huy",
+            "email": "huy.nguyenthanh@southtelecom.vn"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "S3\\MinIO\\": "src/"
+        }
+    }
+}

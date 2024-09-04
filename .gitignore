@@ -1,0 +1,39 @@
+.DS_Store
+
+portal/application/cache/*
+!portal/application/cache/index.html
+
+portal/application/logs/*
+!portal/application/logs/index.html
+
+!portal/application/*/.htaccess
+
+portal/user_guide_src/build/*
+portal/user_guide_src/cilexer/build/*
+portal/user_guide_src/cilexer/dist/*
+portal/user_guide_src/cilexer/pycilexer.egg-info/*
+portal/user_guide/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+.phpintel/*
+sftp-config.json
+sftp.json
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# vs sftp
+.vscode/*
+.vscode
+
+# log
+error_log
